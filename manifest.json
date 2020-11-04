@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Meet-AutoLeave",
+    "description": "Automatically leave from google meet",
+    "version": "1.0",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "endcall.png",
+            "32": "endcall.png",
+            "48": "endcall.png",
+            "128": "endcall.png"
+        }
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "http://meet.google.com/*"
+            ],
+            "js": [
+                "contentScript.js"
+            ]
+        }
+    ]
+}

@@ -1,2 +1,2 @@
-# instagram-followers-tracker
-python script to list users who doesn't follow you back
+# Meet-AutoLeave-Extension
+Google meet auto leave extension
