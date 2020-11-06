@@ -17,17 +17,3 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-
-// code: 'var countValue =' + countValue,
-// chrome.tabs.executeScript({ file: 'contentScript.js' });
-
-
-
-// function checkParticipantsCount() {
-
-    // chrome.tabs.getSelected(null, function (tab) {
-    //     var code = 'window.location.reload();';
-    //     chrome.tabs.executeScript(tab.id, { code: code });
-    // });
-
-// }
